@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta  -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- in order for js object to be accesible -->
+    <script src="./js/word.js"></script>
+
+    <title>Guess a word hame in JavaScript | Githubarj</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1>Guess the Word</h1>
+      <div class="content">
+        <input type="text" class="typing-input" maxlength="1">
+        <div class="inputs"></div>
+        <div class="details">
+          <p class="hint">Hint: <span></span></p>
+          <p class="guess-left">Remaining Guesses: <span></span></p>
+          <p class="wrong-letter">Wrong Letters: <span></span></p>
+        </div>
+        <button class="reset-btn"></button>
+      </div>
+    </div>
+
+    <!-- js -->
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
